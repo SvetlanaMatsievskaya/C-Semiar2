@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int SecondDigitFrom3(int temp)
+{
+               
+        return temp%100/10;
+}
+Console.Write("Введите число: ");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine(SecondDigitFrom3(a));
